@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "^20.9.0 || >=21.1.0",
-    "pnpm": "^9.14.0"
+    "pnpm": "^10.0.0"
   },
   "keywords": [
     "eslint",
@@ -29,5 +29,5 @@
     "email": "me@mario.dev",
     "url": "https://mario.dev/"
   },
-  "packageManager": "pnpm@9.15.9"
+  "packageManager": "pnpm@10.16.1"
 }
