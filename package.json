@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-next-x",
+  "version": "0.1.0",
+
+  "description": "Modern alternative ESLint configuration for Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "^20.9.0 || >=21.1.0",
+    "pnpm": "^9.14.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "lint"
+  ],
+  "repository": "Belco90/eslint-config-next-x",
+  "homepage": "https://github.com/Belco90/eslint-config-next-x",
+  "bugs": "https://github.com/Belco90/eslint-config-next-x/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Mario Beltrán",
+    "email": "me@mario.dev",
+    "url": "https://mario.dev/"
+  },
+  "packageManager": "pnpm@9.15.9"
+}
