@@ -15,7 +15,10 @@
     "eslint",
     "eslintplugin",
     "eslint-plugin",
-    "lint"
+    "lint",
+    "nextjs",
+    "next",
+    "react"
   ],
   "repository": "Belco90/eslint-config-next-x",
   "homepage": "https://github.com/Belco90/eslint-config-next-x",
