@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:js-lib",
+		"helpers:pinGitHubActionDigests",
+		":automergeTypes",
+		":automergeLinters",
+		":automergeTesters",
+		":automergeRequireAllStatusChecks",
+		"npm:unpublishSafe",
+		"helpers:disableTypesNodeMajor"
+  ]
+}
