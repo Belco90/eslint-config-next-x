@@ -1,7 +1,7 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:js-lib",
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:js-lib",
 		"helpers:pinGitHubActionDigests",
 		":automergeTypes",
 		":automergeLinters",
@@ -9,5 +9,5 @@
 		":automergeRequireAllStatusChecks",
 		"npm:unpublishSafe",
 		"helpers:disableTypesNodeMajor"
-  ]
+	]
 }
