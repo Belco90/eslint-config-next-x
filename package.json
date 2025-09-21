@@ -1,20 +1,37 @@
 {
   "name": "eslint-config-next-x",
-  "version": "0.1.0",
-
+  "version": "0.2.0",
   "description": "Modern alternative ESLint configuration for Next.js",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "@eslint-react/eslint-plugin": "^1.53.1",
+    "@next/eslint-plugin-next": "^15.5.3",
+    "eslint-plugin-import-x": "^4.16.1",
+    "eslint-plugin-jsx-a11y-x": "^0.1.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "typescript-eslint": "^8.44.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0 || ^9.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "engines": {
-    "node": "^20.9.0 || >=21.1.0",
+    "node": "^20.9.0 || >=22.0.0",
     "pnpm": "^9.14.0"
   },
   "keywords": [
     "eslint",
-    "eslintplugin",
-    "eslint-plugin",
+    "eslintconfig",
+    "eslint-config",
     "lint",
     "nextjs",
     "next",
